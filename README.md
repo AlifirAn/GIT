@@ -39,5 +39,5 @@ git commit --amend -m "Новое сообщение" (команда измен
 
 git restore --staged <file> (команда удаления файла из списка на коммит - из staged)\
 git restore --staged . (команда удаления всех файлов папки из списка на коммит - из staged)\
-git reset --hard <commit hash> (команда удаления коммита)\
+git reset --hard <commit hash> (команда удаления коммитов, указывать нужно коммит до которого откатываемся)\
 git restore <file> (команда удаления всех изменений в файле modified  после последнего add или  commit)\
